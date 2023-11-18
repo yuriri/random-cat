@@ -8,7 +8,7 @@ type Props = {
  
 const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
   const [imageUrl, setImageUrl] = useState(initialImageUrl);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // useEffect(() => {
   //   fetchImage().then((newImage) => {
